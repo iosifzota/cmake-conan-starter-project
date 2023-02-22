@@ -1,11 +1,11 @@
 # Main
 add_executable(
-    tiny_fsm
+    main
     main.cpp
 )
 
 target_link_libraries(
-    tiny_fsm
+    main
     PUBLIC
     ${CONAN_LIBS}
 )
