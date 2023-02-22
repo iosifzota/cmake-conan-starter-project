@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/u3965/.conan/data/argh/1.3.2/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/",
+                "C:/Users/u3965/.conan/data/poco/1.11.2/_/_/source/src/Foundation/include",
+                "C:/Users/u3965/.conan/data/libconfig/1.7.2/_/_/package/164640aad040835ac89882393a96d89200694f04/include/",
+                "C:/Users/u3965/.conan/data/catch2/3.3.1/_/_/package/e48d5f4f515aeebcecea1da00e01c291afb87a0a/include/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+            // ,
+            //     "windowsSdkVersion": "10.0.19041.0",
+            //     "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe",
+            //     "cStandard": "c17",
+            //     "cppStandard": "c++17",
+            //     "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
