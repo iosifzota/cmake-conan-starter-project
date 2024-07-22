@@ -9,5 +9,5 @@ find_package(Catch2 CONFIG REQUIRED)
 target_link_libraries(
     tests
     PRIVATE
-    Catch2::Catch2WithMain
+    Catch2::Catch2
 )
