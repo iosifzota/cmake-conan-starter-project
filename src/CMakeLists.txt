@@ -6,8 +6,6 @@ add_executable(
 
 target_link_libraries(
     main
-    PUBLIC
-    ${CONAN_LIBS}
 )
 
 add_subdirectory(tests)

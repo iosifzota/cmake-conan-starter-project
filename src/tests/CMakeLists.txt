@@ -4,8 +4,10 @@ add_executable(
     tests.cpp
 )
 
+find_package(Catch2 CONFIG REQUIRED)
+
 target_link_libraries(
     tests
-    PUBLIC
-    ${CONAN_LIBS}
+    PRIVATE
+    Catch2::Catch2WithMain
 )
